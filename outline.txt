@@ -16,6 +16,7 @@ Modules Needed
 2. hashlib
 3. fileinput
 4. threading or multiprocessing
+5. pathlib - Used for interactinve with directories
 
 Networking Modules
 
