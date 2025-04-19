@@ -1,4 +1,5 @@
 from pathlib import Path
+from baseline import *
 
 def createBaseline():
     print("Please enter the path of the directory you would like to baseline:")
@@ -6,6 +7,8 @@ def createBaseline():
     path = Path(input("> "))
     if path.exists():
         print(f"{path} is valid")
+        #print(type(path))
+        baseline(path)
     else:
         print("Invalid path please try again.")
         createBaseline()
