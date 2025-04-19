@@ -4,7 +4,11 @@ def createBaseline():
     print("Please enter the path of the directory you would like to baseline:")
     print("[example: '/home/william/Documents']")
     path = Path(input("> "))
-    print(path.exists())
+    if path.exists():
+        print(f"{path} is valid")
+    else:
+        print("Invalid path please try again.")
+        createBaseline()
 
 def main():
     print("Welcome to HashHunter an open source signature based FIM and AV tool!")
