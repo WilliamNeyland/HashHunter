@@ -15,3 +15,7 @@ class baseline():
     def test(self):
         print("You're in the test() method of the baseline class")
         print(self.dir)
+
+#    os.stat() could be used for file attributes
+#    shutil.copystat() could be used for writing stat attributes to a baseline file
+#    Path can be used for dir paths
