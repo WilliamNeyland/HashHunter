@@ -22,6 +22,9 @@ class baseline():
 
         # Prints out dir being walked prints and nested loops are used for testing
         for root, dirs, files in self.dir.walk():
+            cache.write(str(root) + '\n')
+            cache.write(str(dirs) + '\n')
+            cache.write(str(files) + '\n')
             print(f'root of type {type(root)} = {root}\ndir of type {type(dirs)} = {dirs}\nfile of type {type(files)} = {files}\n')
             if len(dirs) > 0:
                 i = 0
