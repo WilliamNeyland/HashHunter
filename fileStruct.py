@@ -1,4 +1,5 @@
 import stat
+import hashlib
 
 class fileStruct():
 
@@ -14,6 +15,10 @@ class fileStruct():
         self.ctime = fileStat.st_ctime
         self.mtime = fileStat.st_mtime
 
+        with open(self.path, 'rb') as file:
+            digest = hashlib.file_digest(file, 'sha256').hexdigest()
+            self.digest = digest
+
     def __str__(self):
-        return str(f'File={self.path},Mode={self.mode},Dev={self.dev},Nlinks={self.nlink},UID={self.uid},GID={self.gid},Size={self.size},Atime={self.atime},Ctime={self.ctime},Mtime={self.mtime}')
+        return str(f'File={self.path},Mode={self.mode},Dev={self.dev},Nlinks={self.nlink},UID={self.uid},GID={self.gid},Size={self.size},Atime={self.atime},Ctime={self.ctime},Mtime={self.mtime},Digest={self.digest}')
     
