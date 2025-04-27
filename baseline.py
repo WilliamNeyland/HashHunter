@@ -16,23 +16,18 @@ class baseline():
         self.dirWalk()
 
     def dirWalk(self):
-        cache = open('./cache/testCache.txt', 'r+', encoding='utf-8')
-
-        # pathlib.walk() returns a three value tuple (root, dirs, files) where root = type pathlib.Posixpath | dirs = list of strings | files = list of strings
-        for root, dirs, files in self.dir.walk():
-            cache.write(str(root) + '\n')
-            cache.write(str(dirs) + '\n')
-            cache.write(str(files) + '\n')
-            
-            for file in files:
-                fileStat = os.stat(root / file)
-                filePath = str(root / file)
-                fileObj = fileStruct(filePath, fileStat)
-                cache.write(fileObj.__str__() + '\n')
-
+        with open('./cache/testCache.txt', 'w', encoding='utf-8') as cache:
+            # pathlib.walk() returns a three value tuple (root, dirs, files) where root = type pathlib.Posixpath | dirs = list of strings | files = list of strings
+            for root, dirs, files in self.dir.walk():
+                cache.write(str(root) + '\n')
+                cache.write(str(dirs) + '\n')
+                cache.write(str(files) + '\n')
                 
-
-        cache.close()
+                for file in files:
+                    fileStat = os.stat(root / file)
+                    filePath = str(root / file)
+                    fileObj = fileStruct(filePath, fileStat)
+                    cache.write(fileObj.__str__() + '\n')
 
 
 #st_mode == File mode: file type and file mode bits (permissions).
