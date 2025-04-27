@@ -1,5 +1,7 @@
 import pathlib
 import os
+import stat
+from fileStruct import *
 
 '''Class for creating directory FIM baselines'''
 
@@ -21,7 +23,25 @@ class baseline():
             cache.write(str(root) + '\n')
             cache.write(str(dirs) + '\n')
             cache.write(str(files) + '\n')
+            
             for file in files:
-                cache.write(f'attributes of {root / file}: ' + str(os.stat(root / file)))
+                fileStat = os.stat(root / file)
+                filePath = str(root / file)
+                fileObj = fileStruct(filePath, fileStat)
+                cache.write(fileObj.__str__() + '\n')
+
+                
 
         cache.close()
+
+
+#st_mode == File mode: file type and file mode bits (permissions).
+#st_ino ==
+#st_dev == Identifier of the device on which this file resides.
+#st_nlinks == Number of hard links.
+#st_uid == User identifier of the file owner.
+#st_gid == Group identifier of the file owner.
+#st_size == Size of the file in bytes, if it is a regular file or a symbolic link. The size of a symbolic link is the length of the pathname it contains, without a terminating null byte.
+#st_atime == Time of most recent access expressed in seconds.
+#st_ctime == Time of most recent content modification expressed in seconds.
+#st_mtime == Time of most recent metadata change expressed in seconds.

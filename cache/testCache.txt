@@ -3,23 +3,55 @@
 []
 /home/william/Projects/git_projects/HashHunter
 ['cache', '.git', '__pycache__']
-['.gitignore', 'baseline.py', 'outline.txt', 'LICENSE', 'main.py', 'README.md']
-attributes of /home/william/Projects/git_projects/HashHunter/.gitignore: os.stat_result(st_mode=33204, st_ino=23470310, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=25, st_atime=1745702434, st_mtime=1745382616, st_ctime=1745382616)attributes of /home/william/Projects/git_projects/HashHunter/baseline.py: os.stat_result(st_mode=33204, st_ino=23470312, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=1026, st_atime=1745707784, st_mtime=1745707775, st_ctime=1745707775)attributes of /home/william/Projects/git_projects/HashHunter/outline.txt: os.stat_result(st_mode=33204, st_ino=23470311, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=934, st_atime=1745377273, st_mtime=1745211028, st_ctime=1745211028)attributes of /home/william/Projects/git_projects/HashHunter/LICENSE: os.stat_result(st_mode=33204, st_ino=23470306, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=1072, st_atime=1745378392, st_mtime=1744568324, st_ctime=1744568324)attributes of /home/william/Projects/git_projects/HashHunter/main.py: os.stat_result(st_mode=33204, st_ino=23470309, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=915, st_atime=1745702679, st_mtime=1745085662, st_ctime=1745085662)attributes of /home/william/Projects/git_projects/HashHunter/README.md: os.stat_result(st_mode=33204, st_ino=23470307, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=135, st_atime=1744568853, st_mtime=1744568848, st_ctime=1744568848)/home/william/Projects/git_projects/HashHunter/cache
+['.gitignore', 'baseline.py', 'outline.txt', 'LICENSE', 'main.py', 'README.md', 'fileStruct.py']
+File=/home/william/Projects/git_projects/HashHunter/.gitignore,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=25,Atime=1745702434.7430234,Ctime=1745382616.7772024,Mtime=1745382616.7762024
+File=/home/william/Projects/git_projects/HashHunter/baseline.py,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=1875,Atime=1745784430.637724,Ctime=1745784430.632724,Mtime=1745784430.632724
+File=/home/william/Projects/git_projects/HashHunter/outline.txt,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=934,Atime=1745377273.3742468,Ctime=1745211028.5709543,Mtime=1745211028.5689542
+File=/home/william/Projects/git_projects/HashHunter/LICENSE,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=1072,Atime=1745378392.8856492,Ctime=1744568324.818886,Mtime=1744568324.818886
+File=/home/william/Projects/git_projects/HashHunter/main.py,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=915,Atime=1745702679.086606,Ctime=1745085662.9608855,Mtime=1745085662.9588854
+File=/home/william/Projects/git_projects/HashHunter/README.md,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=135,Atime=1744568853.4925826,Ctime=1744568848.545677,Mtime=1744568848.544677
+File=/home/william/Projects/git_projects/HashHunter/fileStruct.py,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=681,Atime=1745784565.7330709,Ctime=1745784565.729071,Mtime=1745784565.729071
+/home/william/Projects/git_projects/HashHunter/cache
 []
 ['testCache.txt']
-attributes of /home/william/Projects/git_projects/HashHunter/cache/testCache.txt: os.stat_result(st_mode=33204, st_ino=23612959, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=31490, st_atime=1745707507, st_mtime=1745707507, st_ctime=1745707507)/home/william/Projects/git_projects/HashHunter/.git
+File=/home/william/Projects/git_projects/HashHunter/cache/testCache.txt,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=33540,Atime=1745784494.3014162,Ctime=1745784494.1934166,Mtime=1745784494.1934166
+/home/william/Projects/git_projects/HashHunter/.git
 ['hooks', 'info', 'logs', 'refs', 'objects', 'branches']
 ['HEAD', 'description', 'ORIG_HEAD', 'config', 'packed-refs', 'index', 'COMMIT_EDITMSG', 'FETCH_HEAD']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/HEAD: os.stat_result(st_mode=33204, st_ino=23612892, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=21, st_atime=1745702434, st_mtime=1744867420, st_ctime=1744867420)attributes of /home/william/Projects/git_projects/HashHunter/.git/description: os.stat_result(st_mode=33204, st_ino=23612361, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=73, st_atime=1744568323, st_mtime=1744568323, st_ctime=1744568323)attributes of /home/william/Projects/git_projects/HashHunter/.git/ORIG_HEAD: os.stat_result(st_mode=33204, st_ino=23611322, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=41, st_atime=1744867420, st_mtime=1744867420, st_ctime=1744867420)attributes of /home/william/Projects/git_projects/HashHunter/.git/config: os.stat_result(st_mode=33204, st_ino=23625114, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=298, st_atime=1745706176, st_mtime=1745706176, st_ctime=1745706176)attributes of /home/william/Projects/git_projects/HashHunter/.git/packed-refs: os.stat_result(st_mode=33204, st_ino=23612831, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=112, st_atime=1745702434, st_mtime=1744568324, st_ctime=1744568324)attributes of /home/william/Projects/git_projects/HashHunter/.git/index: os.stat_result(st_mode=33204, st_ino=23613132, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=559, st_atime=1745702434, st_mtime=1745382880, st_ctime=1745382880)attributes of /home/william/Projects/git_projects/HashHunter/.git/COMMIT_EDITMSG: os.stat_result(st_mode=33204, st_ino=23612574, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=50, st_atime=1745382880, st_mtime=1745382880, st_ctime=1745382880)attributes of /home/william/Projects/git_projects/HashHunter/.git/FETCH_HEAD: os.stat_result(st_mode=33204, st_ino=23612798, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=96, st_atime=1744867420, st_mtime=1744867420, st_ctime=1744867420)/home/william/Projects/git_projects/HashHunter/.git/hooks
+File=/home/william/Projects/git_projects/HashHunter/.git/HEAD,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=21,Atime=1745702434.7420235,Ctime=1744867420.1161559,Mtime=1744867420.1161559
+File=/home/william/Projects/git_projects/HashHunter/.git/description,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=73,Atime=1744568323.5978804,Ctime=1744568323.5978804,Mtime=1744568323.5978804
+File=/home/william/Projects/git_projects/HashHunter/.git/ORIG_HEAD,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=41,Atime=1744867420.1131558,Ctime=1744867420.1131558,Mtime=1744867420.1131558
+File=/home/william/Projects/git_projects/HashHunter/.git/config,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=298,Atime=1745706176.038396,Ctime=1745706176.0323958,Mtime=1745706176.0323958
+File=/home/william/Projects/git_projects/HashHunter/.git/packed-refs,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=112,Atime=1745702434.7420235,Ctime=1744568324.8168862,Mtime=1744568324.8168862
+File=/home/william/Projects/git_projects/HashHunter/.git/index,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=559,Atime=1745707901.705171,Ctime=1745707901.696171,Mtime=1745707901.696171
+File=/home/william/Projects/git_projects/HashHunter/.git/COMMIT_EDITMSG,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=57,Atime=1745707901.696171,Ctime=1745707901.696171,Mtime=1745707901.696171
+File=/home/william/Projects/git_projects/HashHunter/.git/FETCH_HEAD,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=96,Atime=1744867420.109156,Ctime=1744867420.046157,Mtime=1744867420.046157
+/home/william/Projects/git_projects/HashHunter/.git/hooks
 []
 ['pre-rebase.sample', 'commit-msg.sample', 'pre-receive.sample', 'fsmonitor-watchman.sample', 'prepare-commit-msg.sample', 'post-update.sample', 'pre-commit.sample', 'update.sample', 'pre-merge-commit.sample', 'push-to-checkout.sample', 'pre-applypatch.sample', 'pre-push.sample', 'sendemail-validate.sample', 'applypatch-msg.sample']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/hooks/pre-rebase.sample: os.stat_result(st_mode=33277, st_ino=23612365, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=4898, st_atime=1744568323, st_mtime=1744568323, st_ctime=1744568323)attributes of /home/william/Projects/git_projects/HashHunter/.git/hooks/commit-msg.sample: os.stat_result(st_mode=33277, st_ino=23612412, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=896, st_atime=1744568323, st_mtime=1744568323, st_ctime=1744568323)attributes of /home/william/Projects/git_projects/HashHunter/.git/hooks/pre-receive.sample: os.stat_result(st_mode=33277, st_ino=23612413, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=544, st_atime=1744568323, st_mtime=1744568323, st_ctime=1744568323)attributes of /home/william/Projects/git_projects/HashHunter/.git/hooks/fsmonitor-watchman.sample: os.stat_result(st_mode=33277, st_ino=23612414, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=4726, st_atime=1744568323, st_mtime=1744568323, st_ctime=1744568323)attributes of /home/william/Projects/git_projects/HashHunter/.git/hooks/prepare-commit-msg.sample: os.stat_result(st_mode=33277, st_ino=23612415, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=1492, st_atime=1744568323, st_mtime=1744568323, st_ctime=1744568323)attributes of /home/william/Projects/git_projects/HashHunter/.git/hooks/post-update.sample: os.stat_result(st_mode=33277, st_ino=23612418, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=189, st_atime=1744568323, st_mtime=1744568323, st_ctime=1744568323)attributes of /home/william/Projects/git_projects/HashHunter/.git/hooks/pre-commit.sample: os.stat_result(st_mode=33277, st_ino=23612734, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=1643, st_atime=1744568323, st_mtime=1744568323, st_ctime=1744568323)attributes of /home/william/Projects/git_projects/HashHunter/.git/hooks/update.sample: os.stat_result(st_mode=33277, st_ino=23612807, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=3650, st_atime=1744568323, st_mtime=1744568323, st_ctime=1744568323)attributes of /home/william/Projects/git_projects/HashHunter/.git/hooks/pre-merge-commit.sample: os.stat_result(st_mode=33277, st_ino=23612808, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=416, st_atime=1744568323, st_mtime=1744568323, st_ctime=1744568323)attributes of /home/william/Projects/git_projects/HashHunter/.git/hooks/push-to-checkout.sample: os.stat_result(st_mode=33277, st_ino=23612810, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=2783, st_atime=1744568323, st_mtime=1744568323, st_ctime=1744568323)attributes of /home/william/Projects/git_projects/HashHunter/.git/hooks/pre-applypatch.sample: os.stat_result(st_mode=33277, st_ino=23612811, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=424, st_atime=1744568323, st_mtime=1744568323, st_ctime=1744568323)attributes of /home/william/Projects/git_projects/HashHunter/.git/hooks/pre-push.sample: os.stat_result(st_mode=33277, st_ino=23612812, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=1374, st_atime=1744568323, st_mtime=1744568323, st_ctime=1744568323)attributes of /home/william/Projects/git_projects/HashHunter/.git/hooks/sendemail-validate.sample: os.stat_result(st_mode=33277, st_ino=23612813, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=2308, st_atime=1744568323, st_mtime=1744568323, st_ctime=1744568323)attributes of /home/william/Projects/git_projects/HashHunter/.git/hooks/applypatch-msg.sample: os.stat_result(st_mode=33277, st_ino=23612814, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=478, st_atime=1744568323, st_mtime=1744568323, st_ctime=1744568323)/home/william/Projects/git_projects/HashHunter/.git/info
+File=/home/william/Projects/git_projects/HashHunter/.git/hooks/pre-rebase.sample,Mode=-rwxrwxr-x,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=4898,Atime=1744568323.5988805,Ctime=1744568323.5988805,Mtime=1744568323.5988805
+File=/home/william/Projects/git_projects/HashHunter/.git/hooks/commit-msg.sample,Mode=-rwxrwxr-x,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=896,Atime=1744568323.5988805,Ctime=1744568323.5988805,Mtime=1744568323.5988805
+File=/home/william/Projects/git_projects/HashHunter/.git/hooks/pre-receive.sample,Mode=-rwxrwxr-x,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=544,Atime=1744568323.5988805,Ctime=1744568323.5988805,Mtime=1744568323.5988805
+File=/home/william/Projects/git_projects/HashHunter/.git/hooks/fsmonitor-watchman.sample,Mode=-rwxrwxr-x,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=4726,Atime=1744568323.5988805,Ctime=1744568323.5988805,Mtime=1744568323.5988805
+File=/home/william/Projects/git_projects/HashHunter/.git/hooks/prepare-commit-msg.sample,Mode=-rwxrwxr-x,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=1492,Atime=1744568323.5988805,Ctime=1744568323.5988805,Mtime=1744568323.5988805
+File=/home/william/Projects/git_projects/HashHunter/.git/hooks/post-update.sample,Mode=-rwxrwxr-x,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=189,Atime=1744568323.5988805,Ctime=1744568323.5988805,Mtime=1744568323.5988805
+File=/home/william/Projects/git_projects/HashHunter/.git/hooks/pre-commit.sample,Mode=-rwxrwxr-x,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=1643,Atime=1744568323.5988805,Ctime=1744568323.5988805,Mtime=1744568323.5988805
+File=/home/william/Projects/git_projects/HashHunter/.git/hooks/update.sample,Mode=-rwxrwxr-x,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=3650,Atime=1744568323.5988805,Ctime=1744568323.5988805,Mtime=1744568323.5988805
+File=/home/william/Projects/git_projects/HashHunter/.git/hooks/pre-merge-commit.sample,Mode=-rwxrwxr-x,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=416,Atime=1744568323.5988805,Ctime=1744568323.5988805,Mtime=1744568323.5988805
+File=/home/william/Projects/git_projects/HashHunter/.git/hooks/push-to-checkout.sample,Mode=-rwxrwxr-x,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=2783,Atime=1744568323.5988805,Ctime=1744568323.5988805,Mtime=1744568323.5988805
+File=/home/william/Projects/git_projects/HashHunter/.git/hooks/pre-applypatch.sample,Mode=-rwxrwxr-x,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=424,Atime=1744568323.5988805,Ctime=1744568323.5988805,Mtime=1744568323.5988805
+File=/home/william/Projects/git_projects/HashHunter/.git/hooks/pre-push.sample,Mode=-rwxrwxr-x,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=1374,Atime=1744568323.5988805,Ctime=1744568323.5988805,Mtime=1744568323.5988805
+File=/home/william/Projects/git_projects/HashHunter/.git/hooks/sendemail-validate.sample,Mode=-rwxrwxr-x,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=2308,Atime=1744568323.5988805,Ctime=1744568323.5988805,Mtime=1744568323.5988805
+File=/home/william/Projects/git_projects/HashHunter/.git/hooks/applypatch-msg.sample,Mode=-rwxrwxr-x,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=478,Atime=1744568323.5988805,Ctime=1744568323.5988805,Mtime=1744568323.5988805
+/home/william/Projects/git_projects/HashHunter/.git/info
 []
 ['exclude']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/info/exclude: os.stat_result(st_mode=33204, st_ino=23612816, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=240, st_atime=1745702434, st_mtime=1744568323, st_ctime=1744568323)/home/william/Projects/git_projects/HashHunter/.git/logs
+File=/home/william/Projects/git_projects/HashHunter/.git/info/exclude,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=240,Atime=1745702434.7430234,Ctime=1744568323.5998805,Mtime=1744568323.5998805
+/home/william/Projects/git_projects/HashHunter/.git/logs
 ['refs']
 ['HEAD']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/logs/HEAD: os.stat_result(st_mode=33204, st_ino=23612841, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=3004, st_atime=1744568324, st_mtime=1745382880, st_ctime=1745382880)/home/william/Projects/git_projects/HashHunter/.git/logs/refs
+File=/home/william/Projects/git_projects/HashHunter/.git/logs/HEAD,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=3202,Atime=1744568324.817886,Ctime=1745707901.697171,Mtime=1745707901.697171
+/home/william/Projects/git_projects/HashHunter/.git/logs/refs
 ['remotes', 'heads']
 []
 /home/william/Projects/git_projects/HashHunter/.git/logs/refs/remotes
@@ -28,10 +60,13 @@ attributes of /home/william/Projects/git_projects/HashHunter/.git/logs/HEAD: os.
 /home/william/Projects/git_projects/HashHunter/.git/logs/refs/remotes/origin
 []
 ['HEAD', 'main']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/logs/refs/remotes/origin/HEAD: os.stat_result(st_mode=33204, st_ino=23612838, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=185, st_atime=1744568324, st_mtime=1744568324, st_ctime=1744568324)attributes of /home/william/Projects/git_projects/HashHunter/.git/logs/refs/remotes/origin/main: os.stat_result(st_mode=33204, st_ino=23612763, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=2076, st_atime=1744867419, st_mtime=1745382883, st_ctime=1745382883)/home/william/Projects/git_projects/HashHunter/.git/logs/refs/heads
+File=/home/william/Projects/git_projects/HashHunter/.git/logs/refs/remotes/origin/HEAD,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=185,Atime=1744568324.8168862,Ctime=1744568324.817886,Mtime=1744568324.817886
+File=/home/william/Projects/git_projects/HashHunter/.git/logs/refs/remotes/origin/main,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=2224,Atime=1744867419.2611675,Ctime=1745707905.0012279,Mtime=1745707905.0012279
+/home/william/Projects/git_projects/HashHunter/.git/logs/refs/heads
 []
 ['main']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/logs/refs/heads/main: os.stat_result(st_mode=33204, st_ino=23612843, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=2650, st_atime=1745706175, st_mtime=1745382880, st_ctime=1745382880)/home/william/Projects/git_projects/HashHunter/.git/refs
+File=/home/william/Projects/git_projects/HashHunter/.git/logs/refs/heads/main,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=2848,Atime=1745706175.9883966,Ctime=1745707901.697171,Mtime=1745707901.697171
+/home/william/Projects/git_projects/HashHunter/.git/refs
 ['tags', 'remotes', 'heads']
 []
 /home/william/Projects/git_projects/HashHunter/.git/refs/tags
@@ -43,148 +78,256 @@ attributes of /home/william/Projects/git_projects/HashHunter/.git/logs/refs/head
 /home/william/Projects/git_projects/HashHunter/.git/refs/remotes/origin
 []
 ['HEAD', 'main']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/refs/remotes/origin/HEAD: os.stat_result(st_mode=33204, st_ino=23612833, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=30, st_atime=1745706175, st_mtime=1744568324, st_ctime=1744568324)attributes of /home/william/Projects/git_projects/HashHunter/.git/refs/remotes/origin/main: os.stat_result(st_mode=33204, st_ino=23613137, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=41, st_atime=1745702434, st_mtime=1745382883, st_ctime=1745382883)/home/william/Projects/git_projects/HashHunter/.git/refs/heads
+File=/home/william/Projects/git_projects/HashHunter/.git/refs/remotes/origin/HEAD,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=30,Atime=1745706175.9423976,Ctime=1744568324.817886,Mtime=1744568324.817886
+File=/home/william/Projects/git_projects/HashHunter/.git/refs/remotes/origin/main,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=41,Atime=1745707905.009228,Ctime=1745707905.0022278,Mtime=1745707905.0012279
+/home/william/Projects/git_projects/HashHunter/.git/refs/heads
 []
 ['main']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/refs/heads/main: os.stat_result(st_mode=33204, st_ino=23624999, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=41, st_atime=1745702434, st_mtime=1745382880, st_ctime=1745382880)/home/william/Projects/git_projects/HashHunter/.git/objects
-['75', 'bd', '86', '6a', 'bf', '8a', '16', '6b', '4b', '6e', 'be', 'd5', 'f1', 'ea', 'info', '9d', '2b', 'e9', 'dd', 'd6', 'd9', '0d', '96', '15', '90', '1b', '4e', '70', '0b', 'f0', '28', '3c', 'db', '43', '13', 'fd', 'b3', '4d', 'pack', '22', '31', '99', '01', 'd4']
+File=/home/william/Projects/git_projects/HashHunter/.git/refs/heads/main,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=41,Atime=1745707901.699171,Ctime=1745707901.697171,Mtime=1745707901.697171
+/home/william/Projects/git_projects/HashHunter/.git/objects
+['75', 'bd', '86', '6a', 'bf', '80', '8a', '16', '6b', '4b', '6e', 'be', 'd5', 'f1', 'ea', 'info', '94', '9d', '2b', 'e9', 'dd', 'd6', 'd9', '0d', '96', '15', '90', '1b', '4e', '70', '0b', 'ca', 'f0', '1f', '28', '3c', 'db', '43', '13', 'fd', 'b3', '4d', 'pack', '22', '31', '99', '01', 'd4']
 []
 /home/william/Projects/git_projects/HashHunter/.git/objects/75
 []
 ['1f8a999fc4d2f3c32cbbc17a5775ae86f503c8']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/75/1f8a999fc4d2f3c32cbbc17a5775ae86f503c8: os.stat_result(st_mode=33060, st_ino=23613145, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=186, st_atime=1745702434, st_mtime=1745382880, st_ctime=1745382880)/home/william/Projects/git_projects/HashHunter/.git/objects/bd
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/75/1f8a999fc4d2f3c32cbbc17a5775ae86f503c8,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=186,Atime=1745702434.7420235,Ctime=1745382880.507044,Mtime=1745382880.507044
+/home/william/Projects/git_projects/HashHunter/.git/objects/bd
 []
 ['362d37095d71002d1bbf6606e1c82c32a53cfe']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/bd/362d37095d71002d1bbf6606e1c82c32a53cfe: os.stat_result(st_mode=33060, st_ino=23612771, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=124, st_atime=1744568875, st_mtime=1744568853, st_ctime=1744568853)/home/william/Projects/git_projects/HashHunter/.git/objects/86
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/bd/362d37095d71002d1bbf6606e1c82c32a53cfe,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=124,Atime=1744568875.5031743,Ctime=1744568853.4935825,Mtime=1744568853.4935825
+/home/william/Projects/git_projects/HashHunter/.git/objects/86
 []
 ['4d417e886fa89623e674d4e06dc3db3fbc8414']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/86/4d417e886fa89623e674d4e06dc3db3fbc8414: os.stat_result(st_mode=33060, st_ino=23612869, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=402, st_atime=1745034548, st_mtime=1744867005, st_ctime=1744867005)/home/william/Projects/git_projects/HashHunter/.git/objects/6a
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/86/4d417e886fa89623e674d4e06dc3db3fbc8414,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=402,Atime=1745034548.638122,Ctime=1744867005.9313424,Mtime=1744867005.9313424
+/home/william/Projects/git_projects/HashHunter/.git/objects/6a
 []
 ['243587fd25c406abfd2f1698249f0c20d7bafc']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/6a/243587fd25c406abfd2f1698249f0c20d7bafc: os.stat_result(st_mode=33060, st_ino=23613022, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=185, st_atime=1745706175, st_mtime=1745086875, st_ctime=1745086875)/home/william/Projects/git_projects/HashHunter/.git/objects/bf
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/6a/243587fd25c406abfd2f1698249f0c20d7bafc,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=185,Atime=1745706175.9883966,Ctime=1745086875.7049034,Mtime=1745086875.7049034
+/home/william/Projects/git_projects/HashHunter/.git/objects/bf
 []
 ['f6411c1fdb49c27be540f4cd9bc1e24cc65dd3']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/bf/f6411c1fdb49c27be540f4cd9bc1e24cc65dd3: os.stat_result(st_mode=33060, st_ino=23612983, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=185, st_atime=1745706285, st_mtime=1745086770, st_ctime=1745086770)/home/william/Projects/git_projects/HashHunter/.git/objects/8a
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/bf/f6411c1fdb49c27be540f4cd9bc1e24cc65dd3,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=185,Atime=1745706285.6156003,Ctime=1745086770.0697553,Mtime=1745086770.0697553
+/home/william/Projects/git_projects/HashHunter/.git/objects/80
+[]
+['ff7357d75388c395c7be179618aa592b09a8be']
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/80/ff7357d75388c395c7be179618aa592b09a8be,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=480,Atime=1745707904.713223,Ctime=1745707841.8850684,Mtime=1745707841.8850684
+/home/william/Projects/git_projects/HashHunter/.git/objects/8a
 []
 ['c26cfad125cff00dab48fdb1fd1c78b04d7497']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/8a/c26cfad125cff00dab48fdb1fd1c78b04d7497: os.stat_result(st_mode=33060, st_ino=23613096, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=184, st_atime=1745706285, st_mtime=1745211053, st_ctime=1745211053)/home/william/Projects/git_projects/HashHunter/.git/objects/16
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/8a/c26cfad125cff00dab48fdb1fd1c78b04d7497,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=184,Atime=1745706285.6156003,Ctime=1745211053.9418404,Mtime=1745211053.9418404
+/home/william/Projects/git_projects/HashHunter/.git/objects/16
 []
-['babdae7794439203a46f513e09ba3403434888']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/16/babdae7794439203a46f513e09ba3403434888: os.stat_result(st_mode=33060, st_ino=23612996, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=185, st_atime=1745706285, st_mtime=1745381114, st_ctime=1745381114)/home/william/Projects/git_projects/HashHunter/.git/objects/6b
+['76a7aa567dda9627663a2753946e87108a4015', 'babdae7794439203a46f513e09ba3403434888']
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/16/76a7aa567dda9627663a2753946e87108a4015,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=4759,Atime=1745707904.713223,Ctime=1745707841.8850684,Mtime=1745707841.8850684
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/16/babdae7794439203a46f513e09ba3403434888,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=185,Atime=1745706285.6156003,Ctime=1745381114.417345,Mtime=1745381114.417345
+/home/william/Projects/git_projects/HashHunter/.git/objects/6b
 []
 ['9483280e9ea418da81a8fff488861288259fca']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/6b/9483280e9ea418da81a8fff488861288259fca: os.stat_result(st_mode=33060, st_ino=23613094, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=321, st_atime=1745706285, st_mtime=1745211039, st_ctime=1745211039)/home/william/Projects/git_projects/HashHunter/.git/objects/4b
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/6b/9483280e9ea418da81a8fff488861288259fca,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=321,Atime=1745706285.6156003,Ctime=1745211039.9259033,Mtime=1745211039.9259033
+/home/william/Projects/git_projects/HashHunter/.git/objects/4b
 []
 ['4c788b59dd16f1b7ec9e04bd61c861b0249a2a', '1015158e2003248a062b3833117589ce0fdbd1']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/4b/4c788b59dd16f1b7ec9e04bd61c861b0249a2a: os.stat_result(st_mode=33060, st_ino=23613134, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=184, st_atime=1745706285, st_mtime=1745382849, st_ctime=1745382849)attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/4b/1015158e2003248a062b3833117589ce0fdbd1: os.stat_result(st_mode=33060, st_ino=23612850, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=121, st_atime=1744864006, st_mtime=1744590253, st_ctime=1744590253)/home/william/Projects/git_projects/HashHunter/.git/objects/6e
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/4b/4c788b59dd16f1b7ec9e04bd61c861b0249a2a,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=184,Atime=1745706285.6146004,Ctime=1745382849.4383037,Mtime=1745382849.4383037
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/4b/1015158e2003248a062b3833117589ce0fdbd1,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=121,Atime=1744864006.6808326,Ctime=1744590253.388665,Mtime=1744590253.388665
+/home/william/Projects/git_projects/HashHunter/.git/objects/6e
 []
 ['786e2c18706b57acc69b307563f1d3d2f3b634', '5bae13b6f2bad23ddacfe87fab237f9b74af80']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/6e/786e2c18706b57acc69b307563f1d3d2f3b634: os.stat_result(st_mode=33060, st_ino=23612894, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=828, st_atime=1745381123, st_mtime=1744867140, st_ctime=1744867140)attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/6e/5bae13b6f2bad23ddacfe87fab237f9b74af80: os.stat_result(st_mode=33060, st_ino=23612961, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=176, st_atime=1745706175, st_mtime=1745381114, st_ctime=1745381114)/home/william/Projects/git_projects/HashHunter/.git/objects/be
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/6e/786e2c18706b57acc69b307563f1d3d2f3b634,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=828,Atime=1745381123.3722546,Ctime=1744867140.966453,Mtime=1744867140.966453
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/6e/5bae13b6f2bad23ddacfe87fab237f9b74af80,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=176,Atime=1745706175.9883966,Ctime=1745381114.418345,Mtime=1745381114.418345
+/home/william/Projects/git_projects/HashHunter/.git/objects/be
 []
 ['16f4a2a36e40508e6dd3ac1b49920bc661a2b4']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/be/16f4a2a36e40508e6dd3ac1b49920bc661a2b4: os.stat_result(st_mode=33060, st_ino=23612851, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=165, st_atime=1745706175, st_mtime=1744590253, st_ctime=1744590253)/home/william/Projects/git_projects/HashHunter/.git/objects/d5
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/be/16f4a2a36e40508e6dd3ac1b49920bc661a2b4,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=165,Atime=1745706175.9883966,Ctime=1744590253.3906631,Mtime=1744590253.3906631
+/home/william/Projects/git_projects/HashHunter/.git/objects/d5
 []
 ['89c10089d109aeb57f9b14c42d67a1ac5a416e']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/d5/89c10089d109aeb57f9b14c42d67a1ac5a416e: os.stat_result(st_mode=33060, st_ino=23612890, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=178, st_atime=1745706175, st_mtime=1744867081, st_ctime=1744867081)/home/william/Projects/git_projects/HashHunter/.git/objects/f1
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/d5/89c10089d109aeb57f9b14c42d67a1ac5a416e,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=178,Atime=1745706175.9883966,Ctime=1744867081.7321854,Mtime=1744867081.7311852
+/home/william/Projects/git_projects/HashHunter/.git/objects/f1
 []
 ['e87bc09bd1e6d67571b788dcd87d8484217a5f']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/f1/e87bc09bd1e6d67571b788dcd87d8484217a5f: os.stat_result(st_mode=33060, st_ino=23612999, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=35, st_atime=1745382605, st_mtime=1745086842, st_ctime=1745086842)/home/william/Projects/git_projects/HashHunter/.git/objects/ea
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/f1/e87bc09bd1e6d67571b788dcd87d8484217a5f,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=35,Atime=1745382605.4292927,Ctime=1745086842.6079106,Mtime=1745086842.6079106
+/home/william/Projects/git_projects/HashHunter/.git/objects/ea
 []
 ['1cf445f981e863724627b8ecd4b609f87d92a3']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/ea/1cf445f981e863724627b8ecd4b609f87d92a3: os.stat_result(st_mode=33060, st_ino=23613135, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=196, st_atime=1745706175, st_mtime=1745382849, st_ctime=1745382849)/home/william/Projects/git_projects/HashHunter/.git/objects/info
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/ea/1cf445f981e863724627b8ecd4b609f87d92a3,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=196,Atime=1745706175.9883966,Ctime=1745382849.4393036,Mtime=1745382849.4393036
+/home/william/Projects/git_projects/HashHunter/.git/objects/info
 []
 []
+/home/william/Projects/git_projects/HashHunter/.git/objects/94
+[]
+['84e8d914b8cfff855863c753aeef6a4b96de2e']
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/94/84e8d914b8cfff855863c753aeef6a4b96de2e,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=216,Atime=1745707901.699171,Ctime=1745707901.696171,Mtime=1745707901.696171
 /home/william/Projects/git_projects/HashHunter/.git/objects/9d
 []
 ['f8bc8fc2a9be24cbb44c14ad3d879e4dbf03fe']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/9d/f8bc8fc2a9be24cbb44c14ad3d879e4dbf03fe: os.stat_result(st_mode=33060, st_ino=23613097, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=721, st_atime=1745702440, st_mtime=1745382859, st_ctime=1745382859)/home/william/Projects/git_projects/HashHunter/.git/objects/2b
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/9d/f8bc8fc2a9be24cbb44c14ad3d879e4dbf03fe,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=721,Atime=1745702440.830987,Ctime=1745382859.222222,Mtime=1745382859.222222
+/home/william/Projects/git_projects/HashHunter/.git/objects/2b
 []
 ['4db09a2959565ac55da69fba72bf1abc4d4ee2']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/2b/4db09a2959565ac55da69fba72bf1abc4d4ee2: os.stat_result(st_mode=33060, st_ino=23612576, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=173, st_atime=1745706175, st_mtime=1744568666, st_ctime=1744568666)/home/william/Projects/git_projects/HashHunter/.git/objects/e9
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/2b/4db09a2959565ac55da69fba72bf1abc4d4ee2,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=173,Atime=1745706175.9883966,Ctime=1744568666.617633,Mtime=1744568666.617633
+/home/william/Projects/git_projects/HashHunter/.git/objects/e9
 []
 ['eaa17a8c705c340c1e23a60f171792bb85e416']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/e9/eaa17a8c705c340c1e23a60f171792bb85e416: os.stat_result(st_mode=33060, st_ino=23612848, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=469, st_atime=1744864011, st_mtime=1744590238, st_ctime=1744590238)/home/william/Projects/git_projects/HashHunter/.git/objects/dd
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/e9/eaa17a8c705c340c1e23a60f171792bb85e416,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=469,Atime=1744864011.8917723,Ctime=1744590238.025336,Mtime=1744590238.025336
+/home/william/Projects/git_projects/HashHunter/.git/objects/dd
 []
 ['3da5928cfe7d8f0fa0d9f7eb32ffae9a28476e']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/dd/3da5928cfe7d8f0fa0d9f7eb32ffae9a28476e: os.stat_result(st_mode=33060, st_ino=23612994, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=694, st_atime=1745706285, st_mtime=1745381090, st_ctime=1745381090)/home/william/Projects/git_projects/HashHunter/.git/objects/d6
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/dd/3da5928cfe7d8f0fa0d9f7eb32ffae9a28476e,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=694,Atime=1745706285.6156003,Ctime=1745381090.580585,Mtime=1745381090.580585
+/home/william/Projects/git_projects/HashHunter/.git/objects/d6
 []
 ['463ec283650b44a151569d2d46e087e1b75fa1', 'db169a0435402c22946a006df3c7b3e6cca28a']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/d6/463ec283650b44a151569d2d46e087e1b75fa1: os.stat_result(st_mode=33060, st_ino=23612993, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=184, st_atime=1745706175, st_mtime=1744867420, st_ctime=1744867420)attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/d6/db169a0435402c22946a006df3c7b3e6cca28a: os.stat_result(st_mode=33060, st_ino=23613091, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=173, st_atime=1745706175, st_mtime=1745211097, st_ctime=1745211097)/home/william/Projects/git_projects/HashHunter/.git/objects/d9
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/d6/463ec283650b44a151569d2d46e087e1b75fa1,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=184,Atime=1745706175.9883966,Ctime=1744867420.115156,Mtime=1744867420.115156
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/d6/db169a0435402c22946a006df3c7b3e6cca28a,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=173,Atime=1745706175.9883966,Ctime=1745211097.7516441,Mtime=1745211097.7516441
+/home/william/Projects/git_projects/HashHunter/.git/objects/d9
 []
 ['b3e6b52712ae8460829f9420831f9fa91b592c']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/d9/b3e6b52712ae8460829f9420831f9fa91b592c: os.stat_result(st_mode=33060, st_ino=23613143, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=217, st_atime=1745702434, st_mtime=1745382880, st_ctime=1745382880)/home/william/Projects/git_projects/HashHunter/.git/objects/0d
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/d9/b3e6b52712ae8460829f9420831f9fa91b592c,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=217,Atime=1745702434.7430234,Ctime=1745382880.507044,Mtime=1745382880.5060441
+/home/william/Projects/git_projects/HashHunter/.git/objects/0d
 []
 ['191751055a94af944dc3438ef256ef0bb9f9c6', '145fa6d0ed09100d92501ece656e0d650e6123']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/0d/191751055a94af944dc3438ef256ef0bb9f9c6: os.stat_result(st_mode=33060, st_ino=23613133, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=41, st_atime=1745382854, st_mtime=1745382818, st_ctime=1745382818)attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/0d/145fa6d0ed09100d92501ece656e0d650e6123: os.stat_result(st_mode=33060, st_ino=23612789, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=162, st_atime=1745706175, st_mtime=1744864100, st_ctime=1744864100)/home/william/Projects/git_projects/HashHunter/.git/objects/96
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/0d/191751055a94af944dc3438ef256ef0bb9f9c6,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=41,Atime=1745382854.3362627,Ctime=1745382818.974557,Mtime=1745382818.974557
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/0d/145fa6d0ed09100d92501ece656e0d650e6123,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=162,Atime=1745706175.9883966,Ctime=1744864100.1407504,Mtime=1744864100.1407504
+/home/william/Projects/git_projects/HashHunter/.git/objects/96
 []
 ['1f8239b8cac61c7ae25539858b0a5a6ecd7230']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/96/1f8239b8cac61c7ae25539858b0a5a6ecd7230: os.stat_result(st_mode=33060, st_ino=23612411, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=436, st_atime=1745036210, st_mtime=1745036168, st_ctime=1745036168)/home/william/Projects/git_projects/HashHunter/.git/objects/15
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/96/1f8239b8cac61c7ae25539858b0a5a6ecd7230,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=436,Atime=1745036210.6572042,Ctime=1745036168.2538123,Mtime=1745036168.2538123
+/home/william/Projects/git_projects/HashHunter/.git/objects/15
 []
 ['56633becfbc4d743ddf9dfe0ab208efdd6ba89']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/15/56633becfbc4d743ddf9dfe0ab208efdd6ba89: os.stat_result(st_mode=33060, st_ino=23612773, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=85, st_atime=1744568871, st_mtime=1744568871, st_ctime=1744568871)/home/william/Projects/git_projects/HashHunter/.git/objects/90
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/15/56633becfbc4d743ddf9dfe0ab208efdd6ba89,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=85,Atime=1744568871.5172467,Ctime=1744568871.514247,Mtime=1744568871.514247
+/home/william/Projects/git_projects/HashHunter/.git/objects/90
 []
 ['02f79baf4e45b369b03d7ae304512a30b6b4b7']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/90/02f79baf4e45b369b03d7ae304512a30b6b4b7: os.stat_result(st_mode=33060, st_ino=23612774, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=173, st_atime=1745706175, st_mtime=1744568871, st_ctime=1744568871)/home/william/Projects/git_projects/HashHunter/.git/objects/1b
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/90/02f79baf4e45b369b03d7ae304512a30b6b4b7,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=173,Atime=1745706175.9883966,Ctime=1744568871.5152469,Mtime=1744568871.514247
+/home/william/Projects/git_projects/HashHunter/.git/objects/1b
 []
 ['532f595ec661439f965eb3dbe3d8f3bd4fa9c5']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/1b/532f595ec661439f965eb3dbe3d8f3bd4fa9c5: os.stat_result(st_mode=33060, st_ino=23613138, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=57, st_atime=1745702434, st_mtime=1745382880, st_ctime=1745382880)/home/william/Projects/git_projects/HashHunter/.git/objects/4e
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/1b/532f595ec661439f965eb3dbe3d8f3bd4fa9c5,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=57,Atime=1745702434.7430234,Ctime=1745382880.5060441,Mtime=1745382880.5060441
+/home/william/Projects/git_projects/HashHunter/.git/objects/4e
 []
 ['4ea47521e17751ad69afdb19cfc1a10bc80212']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/4e/4ea47521e17751ad69afdb19cfc1a10bc80212: os.stat_result(st_mode=33060, st_ino=23612423, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=151, st_atime=1745706285, st_mtime=1745036207, st_ctime=1745036207)/home/william/Projects/git_projects/HashHunter/.git/objects/70
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/4e/4ea47521e17751ad69afdb19cfc1a10bc80212,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=151,Atime=1745706285.6156003,Ctime=1745036207.5101767,Mtime=1745036207.5101767
+/home/william/Projects/git_projects/HashHunter/.git/objects/70
 []
 ['ace93d06cd7b30cd337a5926ffba7c3507e2de']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/70/ace93d06cd7b30cd337a5926ffba7c3507e2de: os.stat_result(st_mode=33060, st_ino=23612896, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=120, st_atime=1744867141, st_mtime=1744867140, st_ctime=1744867140)/home/william/Projects/git_projects/HashHunter/.git/objects/0b
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/70/ace93d06cd7b30cd337a5926ffba7c3507e2de,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=120,Atime=1744867141.0114543,Ctime=1744867140.9674532,Mtime=1744867140.9674532
+/home/william/Projects/git_projects/HashHunter/.git/objects/0b
 []
 ['83a976bb769275f5ef6d6cd69ee7a156555548']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/0b/83a976bb769275f5ef6d6cd69ee7a156555548: os.stat_result(st_mode=33060, st_ino=23612847, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=121, st_atime=1744568743, st_mtime=1744568510, st_ctime=1744568510)/home/william/Projects/git_projects/HashHunter/.git/objects/f0
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/0b/83a976bb769275f5ef6d6cd69ee7a156555548,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=121,Atime=1744568743.6549346,Ctime=1744568510.6448019,Mtime=1744568510.6448019
+/home/william/Projects/git_projects/HashHunter/.git/objects/ca
+[]
+['b6cd471a004e284470a4cb082e4a46753983d4']
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/ca/b6cd471a004e284470a4cb082e4a46753983d4,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=192,Atime=1745707901.705171,Ctime=1745707901.697171,Mtime=1745707901.697171
+/home/william/Projects/git_projects/HashHunter/.git/objects/f0
 []
 ['aa5da304548729183d0b0d7c8209c78630e16f']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/f0/aa5da304548729183d0b0d7c8209c78630e16f: os.stat_result(st_mode=33060, st_ino=23612795, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=156, st_atime=1744864144, st_mtime=1744864144, st_ctime=1744864144)/home/william/Projects/git_projects/HashHunter/.git/objects/28
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/f0/aa5da304548729183d0b0d7c8209c78630e16f,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=156,Atime=1744864144.2252402,Ctime=1744864144.22424,Mtime=1744864144.22424
+/home/william/Projects/git_projects/HashHunter/.git/objects/1f
+[]
+['e4bad17ecd0f13a430714aecb4c2ac4f8956e9']
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/1f/e4bad17ecd0f13a430714aecb4c2ac4f8956e9,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=57,Atime=1745707901.699171,Ctime=1745707901.696171,Mtime=1745707901.696171
+/home/william/Projects/git_projects/HashHunter/.git/objects/28
 []
 ['a6a8b83439c241ae312b8ae46e44fa119fc4d0']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/28/a6a8b83439c241ae312b8ae46e44fa119fc4d0: os.stat_result(st_mode=33060, st_ino=23612791, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=178, st_atime=1745706175, st_mtime=1745036207, st_ctime=1745036207)/home/william/Projects/git_projects/HashHunter/.git/objects/3c
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/28/a6a8b83439c241ae312b8ae46e44fa119fc4d0,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=178,Atime=1745706175.9883966,Ctime=1745036207.5111766,Mtime=1745036207.5111766
+/home/william/Projects/git_projects/HashHunter/.git/objects/3c
 []
 ['6f5402ebfd04796be718c330872c568b88face']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/3c/6f5402ebfd04796be718c330872c568b88face: os.stat_result(st_mode=33060, st_ino=23612889, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=187, st_atime=1744867081, st_mtime=1744867081, st_ctime=1744867081)/home/william/Projects/git_projects/HashHunter/.git/objects/db
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/3c/6f5402ebfd04796be718c330872c568b88face,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=187,Atime=1744867081.7341855,Ctime=1744867081.7311852,Mtime=1744867081.7311852
+/home/william/Projects/git_projects/HashHunter/.git/objects/db
 []
 ['03cf66cf7cec131fc8948a7402e458135417aa']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/db/03cf66cf7cec131fc8948a7402e458135417aa: os.stat_result(st_mode=33060, st_ino=23612573, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=85, st_atime=1744568666, st_mtime=1744568596, st_ctime=1744568596)/home/william/Projects/git_projects/HashHunter/.git/objects/43
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/db/03cf66cf7cec131fc8948a7402e458135417aa,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=85,Atime=1744568666.6166332,Ctime=1744568596.5142548,Mtime=1744568596.5142548
+/home/william/Projects/git_projects/HashHunter/.git/objects/43
 []
 ['b3b6a691ec21551b953bdbf1e7d8c921e3fb39']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/43/b3b6a691ec21551b953bdbf1e7d8c921e3fb39: os.stat_result(st_mode=33060, st_ino=23612981, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=254, st_atime=1745706285, st_mtime=1745086729, st_ctime=1745086729)/home/william/Projects/git_projects/HashHunter/.git/objects/13
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/43/b3b6a691ec21551b953bdbf1e7d8c921e3fb39,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=254,Atime=1745706285.6156003,Ctime=1745086729.4095554,Mtime=1745086729.4095554
+/home/william/Projects/git_projects/HashHunter/.git/objects/13
 []
 ['f74970bb37ef95b9a920ae9b31a10f2a986505']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/13/f74970bb37ef95b9a920ae9b31a10f2a986505: os.stat_result(st_mode=33060, st_ino=23612788, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=121, st_atime=1744864100, st_mtime=1744864069, st_ctime=1744864069)/home/william/Projects/git_projects/HashHunter/.git/objects/fd
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/13/f74970bb37ef95b9a920ae9b31a10f2a986505,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=121,Atime=1744864100.1407504,Ctime=1744864069.4781055,Mtime=1744864069.4781055
+/home/william/Projects/git_projects/HashHunter/.git/objects/fd
 []
 ['22a3404f233b7ea8a0c0bc69e251b2769e101a']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/fd/22a3404f233b7ea8a0c0bc69e251b2769e101a: os.stat_result(st_mode=33060, st_ino=23613019, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=185, st_atime=1745706285, st_mtime=1745086875, st_ctime=1745086875)/home/william/Projects/git_projects/HashHunter/.git/objects/b3
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/fd/22a3404f233b7ea8a0c0bc69e251b2769e101a,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=185,Atime=1745706285.6156003,Ctime=1745086875.7039034,Mtime=1745086875.7039034
+/home/william/Projects/git_projects/HashHunter/.git/objects/b3
 []
 ['7dc566d8825b9ad9212965aa5af00dfbf82885']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/b3/7dc566d8825b9ad9212965aa5af00dfbf82885: os.stat_result(st_mode=33060, st_ino=23612984, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=178, st_atime=1745706175, st_mtime=1745086770, st_ctime=1745086770)/home/william/Projects/git_projects/HashHunter/.git/objects/4d
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/b3/7dc566d8825b9ad9212965aa5af00dfbf82885,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=178,Atime=1745706175.9883966,Ctime=1745086770.0707555,Mtime=1745086770.0707555
+/home/william/Projects/git_projects/HashHunter/.git/objects/4d
 []
 ['8bea3520d6b30ab35aa0ee70e21b9981e34a50']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/4d/8bea3520d6b30ab35aa0ee70e21b9981e34a50: os.stat_result(st_mode=33060, st_ino=23612979, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=463, st_atime=1745706182, st_mtime=1745086729, st_ctime=1745086729)/home/william/Projects/git_projects/HashHunter/.git/objects/pack
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/4d/8bea3520d6b30ab35aa0ee70e21b9981e34a50,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=463,Atime=1745706182.6772807,Ctime=1745086729.4095554,Mtime=1745086729.4095554
+/home/william/Projects/git_projects/HashHunter/.git/objects/pack
 []
 ['pack-7ecbcd272c31ac5cd01f6fde65300136b784a10c.pack', 'pack-7ecbcd272c31ac5cd01f6fde65300136b784a10c.idx', 'pack-7ecbcd272c31ac5cd01f6fde65300136b784a10c.rev']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/pack/pack-7ecbcd272c31ac5cd01f6fde65300136b784a10c.pack: os.stat_result(st_mode=33060, st_ino=23612823, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=1556, st_atime=1745706175, st_mtime=1744568324, st_ctime=1744568324)attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/pack/pack-7ecbcd272c31ac5cd01f6fde65300136b784a10c.idx: os.stat_result(st_mode=33060, st_ino=23612827, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=1184, st_atime=1745702434, st_mtime=1744568324, st_ctime=1744568324)attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/pack/pack-7ecbcd272c31ac5cd01f6fde65300136b784a10c.rev: os.stat_result(st_mode=33060, st_ino=23612828, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=68, st_atime=1744568324, st_mtime=1744568324, st_ctime=1744568324)/home/william/Projects/git_projects/HashHunter/.git/objects/22
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/pack/pack-7ecbcd272c31ac5cd01f6fde65300136b784a10c.pack,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=1556,Atime=1745706175.9883966,Ctime=1744568324.7488859,Mtime=1744568324.7448857
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/pack/pack-7ecbcd272c31ac5cd01f6fde65300136b784a10c.idx,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=1184,Atime=1745702434.7420235,Ctime=1744568324.7488859,Mtime=1744568324.7448857
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/pack/pack-7ecbcd272c31ac5cd01f6fde65300136b784a10c.rev,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=68,Atime=1744568324.7468858,Ctime=1744568324.7488859,Mtime=1744568324.7468858
+/home/william/Projects/git_projects/HashHunter/.git/objects/22
 []
 ['11df63dd2831aa0cfc38ba1ebc95e3c4620894']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/22/11df63dd2831aa0cfc38ba1ebc95e3c4620894: os.stat_result(st_mode=33060, st_ino=23612793, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=21, st_atime=1745086705, st_mtime=1744864128, st_ctime=1744864128)/home/william/Projects/git_projects/HashHunter/.git/objects/31
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/22/11df63dd2831aa0cfc38ba1ebc95e3c4620894,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=21,Atime=1745086705.339395,Ctime=1744864128.7464194,Mtime=1744864128.7454193
+/home/william/Projects/git_projects/HashHunter/.git/objects/31
 []
 ['9158a0ed5a3704af12af84a8b5d0b2a8bbabdd']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/31/9158a0ed5a3704af12af84a8b5d0b2a8bbabdd: os.stat_result(st_mode=33060, st_ino=23612786, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=495, st_atime=1744864104, st_mtime=1744864064, st_ctime=1744864064)/home/william/Projects/git_projects/HashHunter/.git/objects/99
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/31/9158a0ed5a3704af12af84a8b5d0b2a8bbabdd,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=495,Atime=1744864104.330702,Ctime=1744864064.5631623,Mtime=1744864064.5631623
+/home/william/Projects/git_projects/HashHunter/.git/objects/99
 []
 ['2a63b2165ce4296e0e4ab5fe3c38f12baa4f0e']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/99/2a63b2165ce4296e0e4ab5fe3c38f12baa4f0e: os.stat_result(st_mode=33060, st_ino=23612989, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=151, st_atime=1745034512, st_mtime=1744867420, st_ctime=1744867420)/home/william/Projects/git_projects/HashHunter/.git/objects/01
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/99/2a63b2165ce4296e0e4ab5fe3c38f12baa4f0e,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=151,Atime=1745034512.4533908,Ctime=1744867420.114156,Mtime=1744867420.114156
+/home/william/Projects/git_projects/HashHunter/.git/objects/01
 []
 ['21aaed3e1878203173233e2f7f18925aa66432']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/01/21aaed3e1878203173233e2f7f18925aa66432: os.stat_result(st_mode=33060, st_ino=23613100, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=1941, st_atime=1745707523, st_mtime=1745382859, st_ctime=1745382859)/home/william/Projects/git_projects/HashHunter/.git/objects/d4
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/01/21aaed3e1878203173233e2f7f18925aa66432,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=1941,Atime=1745707523.7357864,Ctime=1745382859.222222,Mtime=1745382859.222222
+/home/william/Projects/git_projects/HashHunter/.git/objects/d4
 []
 ['d853053dbaae8f4a3ed0d8236ad7a7941ced8e']
-attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/d4/d853053dbaae8f4a3ed0d8236ad7a7941ced8e: os.stat_result(st_mode=33060, st_ino=23612796, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=164, st_atime=1745706175, st_mtime=1744864144, st_ctime=1744864144)/home/william/Projects/git_projects/HashHunter/.git/branches
+File=/home/william/Projects/git_projects/HashHunter/.git/objects/d4/d853053dbaae8f4a3ed0d8236ad7a7941ced8e,Mode=-r--r--r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=164,Atime=1745706175.9883966,Ctime=1744864144.2252402,Mtime=1744864144.2252402
+/home/william/Projects/git_projects/HashHunter/.git/branches
+[]
+[]
+/home/william/Projects/git_projects/HashHunter/__pycache__
+[]
+['fileStruct.cpython-312.pyc', 'baseline.cpython-312.pyc']
+File=/home/william/Projects/git_projects/HashHunter/__pycache__/fileStruct.cpython-312.pyc,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=1890,Atime=1745784571.6310422,Ctime=1745784571.6310422,Mtime=1745784571.6310422
+File=/home/william/Projects/git_projects/HashHunter/__pycache__/baseline.cpython-312.pyc,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=1765,Atime=1745784465.9675531,Ctime=1745784441.970669,Mtime=1745784441.970669
+me=1745086770, st_ctime=1745086770)
+/home/william/Projects/git_projects/HashHunter/.git/objects/4d
+[]
+['8bea3520d6b30ab35aa0ee70e21b9981e34a50']
+attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/4d/8bea3520d6b30ab35aa0ee70e21b9981e34a50: os.stat_result(st_mode=33060, st_ino=23612979, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=463, st_atime=1745706182, st_mtime=1745086729, st_ctime=1745086729)
+/home/william/Projects/git_projects/HashHunter/.git/objects/pack
+[]
+['pack-7ecbcd272c31ac5cd01f6fde65300136b784a10c.pack', 'pack-7ecbcd272c31ac5cd01f6fde65300136b784a10c.idx', 'pack-7ecbcd272c31ac5cd01f6fde65300136b784a10c.rev']
+attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/pack/pack-7ecbcd272c31ac5cd01f6fde65300136b784a10c.pack: os.stat_result(st_mode=33060, st_ino=23612823, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=1556, st_atime=1745706175, st_mtime=1744568324, st_ctime=1744568324)
+attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/pack/pack-7ecbcd272c31ac5cd01f6fde65300136b784a10c.idx: os.stat_result(st_mode=33060, st_ino=23612827, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=1184, st_atime=1745702434, st_mtime=1744568324, st_ctime=1744568324)
+attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/pack/pack-7ecbcd272c31ac5cd01f6fde65300136b784a10c.rev: os.stat_result(st_mode=33060, st_ino=23612828, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=68, st_atime=1744568324, st_mtime=1744568324, st_ctime=1744568324)
+/home/william/Projects/git_projects/HashHunter/.git/objects/22
+[]
+['11df63dd2831aa0cfc38ba1ebc95e3c4620894']
+attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/22/11df63dd2831aa0cfc38ba1ebc95e3c4620894: os.stat_result(st_mode=33060, st_ino=23612793, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=21, st_atime=1745086705, st_mtime=1744864128, st_ctime=1744864128)
+/home/william/Projects/git_projects/HashHunter/.git/objects/31
+[]
+['9158a0ed5a3704af12af84a8b5d0b2a8bbabdd']
+attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/31/9158a0ed5a3704af12af84a8b5d0b2a8bbabdd: os.stat_result(st_mode=33060, st_ino=23612786, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=495, st_atime=1744864104, st_mtime=1744864064, st_ctime=1744864064)
+/home/william/Projects/git_projects/HashHunter/.git/objects/99
+[]
+['2a63b2165ce4296e0e4ab5fe3c38f12baa4f0e']
+attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/99/2a63b2165ce4296e0e4ab5fe3c38f12baa4f0e: os.stat_result(st_mode=33060, st_ino=23612989, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=151, st_atime=1745034512, st_mtime=1744867420, st_ctime=1744867420)
+/home/william/Projects/git_projects/HashHunter/.git/objects/01
+[]
+['21aaed3e1878203173233e2f7f18925aa66432']
+attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/01/21aaed3e1878203173233e2f7f18925aa66432: os.stat_result(st_mode=33060, st_ino=23613100, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=1941, st_atime=1745707523, st_mtime=1745382859, st_ctime=1745382859)
+/home/william/Projects/git_projects/HashHunter/.git/objects/d4
+[]
+['d853053dbaae8f4a3ed0d8236ad7a7941ced8e']
+attributes of /home/william/Projects/git_projects/HashHunter/.git/objects/d4/d853053dbaae8f4a3ed0d8236ad7a7941ced8e: os.stat_result(st_mode=33060, st_ino=23612796, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=164, st_atime=1745706175, st_mtime=1744864144, st_ctime=1744864144)
+/home/william/Projects/git_projects/HashHunter/.git/branches
 []
 []
 /home/william/Projects/git_projects/HashHunter/__pycache__
 []
 ['baseline.cpython-312.pyc']
-attributes of /home/william/Projects/git_projects/HashHunter/__pycache__/baseline.cpython-312.pyc: os.stat_result(st_mode=33204, st_ino=23625209, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=1626, st_atime=1745707784, st_mtime=1745707784, st_ctime=1745707784)
+attributes of /home/william/Projects/git_projects/HashHunter/__pycache__/baseline.cpython-312.pyc: os.stat_result(st_mode=33204, st_ino=23612966, st_dev=64513, st_nlink=1, st_uid=1000, st_gid=1000, st_size=1638, st_atime=1745774916, st_mtime=1745774916, st_ctime=1745774916)
