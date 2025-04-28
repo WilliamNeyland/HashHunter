@@ -8,7 +8,6 @@ from fileStruct import *
 class baseline():
     def __init__(self, dir):
         self.dir = dir
-
         # Type check the dir attribute
         assert type(self.dir) == pathlib.PosixPath, "Type error with self.dir" # The value of self.dir passed should be of type pathlib.PosixPath
         #self.dir = os.fspath(self.dir) # Cast type of self.dir from pathlib.PosixPath to str
@@ -40,3 +39,9 @@ class baseline():
 #st_atime == Time of most recent access expressed in seconds.
 #st_ctime == Time of most recent content modification expressed in seconds.
 #st_mtime == Time of most recent metadata change expressed in seconds.
+
+##### Baseline Storage Outline #####
+#    1. Dictionary with the root or cwd as the key
+#    2. The keys value will be a two value tuple
+#        - Tuple[0] = list of dir's in cwd
+#        - Tuple[1] = list of files and their attributes
