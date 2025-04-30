@@ -13,6 +13,7 @@ def createBaseline():
         print("Invalid path please try again.")
         createBaseline()
 
+    # Type casting to str() might be uncessary - NEEDS TESTING
     baselineCache = Path(str(os.getcwd())+'/cache/baselineCache.txt')
     if baselineCache.exists():
         with open(baselineCache, 'r') as existingBaselines:
