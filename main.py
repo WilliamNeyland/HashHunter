@@ -15,7 +15,6 @@ def createBaseline():
 
     baselineCache = Path(str(os.getcwd())+'/cache/baselineCache.txt')
     if baselineCache.exists():
-        # Investigate if existingBaselines.close() statements are needed
         with open(baselineCache, 'r') as existingBaselines:
             for lines in existingBaselines:
                 if lines.strip() == str(path):
@@ -25,23 +24,22 @@ def createBaseline():
                     "2 -- Overwrite Existing Baseline (THERE IS NO GOING BACK)")
                     tempInput = int(input("> "))
                     if tempInput == 1:
-                        existingBaselines.close()
                         main()
                     elif tempInput == 2:
-                        existingBaselines.close()
                         baseline(path)
-                        break
                     else:
                         print("Invalid selection please try again.")
-                        existingBaselines.close()
                         createBaseline()
+                    # 'break' needed for bug fix -- If baselines existed after the specified path the loop would continue for the remaining lines
+                    # this would cause the input path to be appended to baselineCache causing duplication
+                    break
                 else:
                     with open(baselineCache, 'a') as existingBaselines:
                         existingBaselines.write(str(path)+'\n')
-                        existingBaselines.close()
                         baseline(path)
                         break
     else:
+        # CLEAN THIS UP
         temp = os.getcwd()
         os.chdir(str(os.getcwd()+'/cache'))
         with open("baselineCache.txt", "w", encoding="utf-8") as baselineCacheFile:
