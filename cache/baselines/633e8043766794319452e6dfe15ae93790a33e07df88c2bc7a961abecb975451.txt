@@ -5,7 +5,7 @@
 ['cache', '.git', '__pycache__']
 ['.gitignore', 'baseline.py', 'outline.txt', 'LICENSE', 'main.py', 'README.md', 'fileStruct.py']
 File=/home/william/Projects/git_projects/HashHunter/.gitignore,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=25,Atime=1745985756.1846435,Ctime=1745382616.7772024,Mtime=1745382616.7762024,Digest=7bf29588109850a4466a962a4c072d568fc22801aef488ee6e8f5df1c31d7965
-File=/home/william/Projects/git_projects/HashHunter/baseline.py,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=2970,Atime=1745989587.1431065,Ctime=1745989584.4350588,Mtime=1745989584.4350588,Digest=cfae4acc7d7eda15366c822abfe9a8ade331d24550165e6a326e8fa9a817ab9e
+File=/home/william/Projects/git_projects/HashHunter/baseline.py,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=3034,Atime=1745990280.1951914,Ctime=1745990280.1901915,Mtime=1745990280.1901915,Digest=86dc5201d23b664d4938778d590540b1001b777b72990241e7fb42b56440d76e
 File=/home/william/Projects/git_projects/HashHunter/outline.txt,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=934,Atime=1745986014.143832,Ctime=1745211028.5709543,Mtime=1745211028.5689542,Digest=831f177eb380ff4681cd2e2d5ed74cd6f54b6fd54848a3358f8a750e259a650a
 File=/home/william/Projects/git_projects/HashHunter/LICENSE,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=1072,Atime=1745986014.143832,Ctime=1744568324.818886,Mtime=1744568324.818886,Digest=73f00b381ae98a0e99c1157d0f8c3b1806e95ac338755e30471834db5f3cc9e1
 File=/home/william/Projects/git_projects/HashHunter/main.py,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=2602,Atime=1745989385.3354287,Ctime=1745989385.3294287,Mtime=1745989385.3294287,Digest=ef489b07a21c405a1f8947597d86d47a1eed545c4c8b8aba3f3106bf4ce03da8
@@ -14,12 +14,12 @@ File=/home/william/Projects/git_projects/HashHunter/fileStruct.py,Mode=-rw-rw-r-
 /home/william/Projects/git_projects/HashHunter/cache
 ['baselines']
 ['testCache.txt', 'baselineCache.txt']
-File=/home/william/Projects/git_projects/HashHunter/cache/testCache.txt,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=0,Atime=1745988920.2157252,Ctime=1745989606.5214398,Mtime=1745989606.5214398,Digest=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+File=/home/william/Projects/git_projects/HashHunter/cache/testCache.txt,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=48752,Atime=1745989860.6797123,Ctime=1745989606.53544,Mtime=1745989606.53544,Digest=419f72b6f7b26438e725ba8d56d60217e0969dbf1836f36fc0302a06127bd3f5
 File=/home/william/Projects/git_projects/HashHunter/cache/baselineCache.txt,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=83,Atime=1745986585.9942582,Ctime=1745986585.9902582,Mtime=1745986585.9902582,Digest=2806615bebb26b1db4822a5701dbc86955503b1096759fb4b346c3670b8fc536
 /home/william/Projects/git_projects/HashHunter/cache/baselines
 []
 ['633e8043766794319452e6dfe15ae93790a33e07df88c2bc7a961abecb975451.txt']
-File=/home/william/Projects/git_projects/HashHunter/cache/baselines/633e8043766794319452e6dfe15ae93790a33e07df88c2bc7a961abecb975451.txt,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=4,Atime=1745989606.5214398,Ctime=1745989606.5214398,Mtime=1745989606.5214398,Digest=94ee059335e587e501cc4bf90613e0814f00a7b08bc7c648fd865a2af6a22cc2
+File=/home/william/Projects/git_projects/HashHunter/cache/baselines/633e8043766794319452e6dfe15ae93790a33e07df88c2bc7a961abecb975451.txt,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=0,Atime=1745989860.6807122,Ctime=1745990312.7802894,Mtime=1745990312.7802894,Digest=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 /home/william/Projects/git_projects/HashHunter/.git
 ['hooks', 'info', 'logs', 'refs', 'objects', 'branches']
 ['HEAD', 'description', 'ORIG_HEAD', 'config', 'packed-refs', 'index', 'COMMIT_EDITMSG', 'FETCH_HEAD']
@@ -394,4 +394,4 @@ File=/home/william/Projects/git_projects/HashHunter/.git/objects/2a/874ce5406851
 []
 ['fileStruct.cpython-312.pyc', 'baseline.cpython-312.pyc']
 File=/home/william/Projects/git_projects/HashHunter/__pycache__/fileStruct.cpython-312.pyc,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=2309,Atime=1745985906.2057326,Ctime=1745789942.9509308,Mtime=1745789942.9509308,Digest=b639e9669c2dc0537e210aa7875ef672d392113606fd566a81c93cd1355fd405
-File=/home/william/Projects/git_projects/HashHunter/__pycache__/baseline.cpython-312.pyc,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=2558,Atime=1745989587.1451066,Ctime=1745989587.1451066,Mtime=1745989587.1451066,Digest=9dd4885b95d4d501aebd2dbf8eea069ddb64f1d3e67e1149a6278c04852e246e
+File=/home/william/Projects/git_projects/HashHunter/__pycache__/baseline.cpython-312.pyc,Mode=-rw-rw-r--,Dev=64513,Nlinks=1,UID=1000,GID=1000,Size=2696,Atime=1745990303.8122633,Ctime=1745990303.8122633,Mtime=1745990303.8122633,Digest=799e6484c70dec720d2b5561053519b3ba30e6e1e6915dd67d4bcff9b5d3e58b
