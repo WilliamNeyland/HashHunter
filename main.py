@@ -3,6 +3,7 @@ from baseline import *
 import os
 
 def createBaseline():
+
     print("Please enter the path of the directory you would like to baseline:")
     print("[example: '/home/william/Documents']")
     path = Path(input("> "))
@@ -52,6 +53,7 @@ def createBaseline():
     
 
 def main():
+    
     print("Welcome to HashHunter an open source signature based FIM and AV tool!")
     print("===== MAIN MENU =====")
     print("Please select one of the following options to continue:")
