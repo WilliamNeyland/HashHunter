@@ -5,6 +5,8 @@ class fileStruct():
 
     def __init__(self, filePath, fileStat):
 
+        self.attributes = {}
+
         self.path = filePath
         self.mode = stat.filemode(fileStat.st_mode)
         self.dev = fileStat.st_dev
@@ -20,10 +22,18 @@ class fileStruct():
             digest = hashlib.file_digest(file, 'sha256').hexdigest()
             self.digest = digest
 
+        # Creates a dictionary of the files attributes
+        for attribute in dir(self):
+            if not attribute.startswith("__") or attribute.startswith("stat") or attribute.startswith("hashlib"):
+                value = getattr(self, attribute)
+                self.attributes.update({attribute : value})
+        self.attributes.pop('attributes')
+
     def __str__(self):
-        
+
         return str(f'File={self.path},Mode={self.mode},Dev={self.dev},Nlinks={self.nlink},UID={self.uid},GID={self.gid},Size={self.size},Atime={self.atime},Ctime={self.ctime},Mtime={self.mtime},Digest={self.digest}')
-    
+
+
 #st_mode == File mode: file type and file mode bits (permissions).
 #st_ino ==
 #st_dev == Identifier of the device on which this file resides.

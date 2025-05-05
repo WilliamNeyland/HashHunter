@@ -1,6 +1,7 @@
 import pathlib
 import os
 import hashlib
+import json
 from fileStruct import *
 from pathlib import *
 
@@ -29,18 +30,32 @@ class baseline():
 
     def dirWalk(self):
 
+        baselineDict = {}
+        baselineRootContent = []
+        baselineFilesDict = {}
         with open(self.cacheFileDir, 'w', encoding='utf-8') as cache:
             # pathlib.walk() returns a three value tuple (root, dirs, files) where root = type pathlib.Posixpath | dirs = list of strings | files = list of strings
+            # Baseline Data Structure -- root (key) : [[dirs],{file:[attributes]}]
             for root, dirs, files in self.baselineDir.walk():
-                cache.write(str(root) + '\n')
+
+                baselineRootContent.append(dirs)
+                baselineDict.update({str(root) : 'test'})
+                for x in baselineDict:
+                    cache.write(str(x + ' : ' + baselineDict[x] + '\n'))
+
+                #cache.write(str(root) + '\n')
                 cache.write(str(dirs) + '\n')
                 cache.write(str(files) + '\n')
+
                 
                 for file in files:
                     fileStat = os.stat(root / file)
                     filePath = str(root / file)
                     fileObj = fileStruct(filePath, fileStat)
-                    cache.write(fileObj.__str__() + '\n')
+                    #cache.write(fileObj.__str__() + '\n')
+
+                    for item in fileObj.attributes:
+                        cache.write(item + ' : ' + str(fileObj.attributes[item]) + '\n')
 
 ##### Baseline Storage Outline #####
 #    Baselines will be stored in JSON format
