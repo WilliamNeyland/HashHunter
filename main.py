@@ -47,6 +47,19 @@ def createBaseline():
             baselineCacheFile.write(str(path)+'\n')
         baseline(path)   
 
+def verifyBaseline():
+    baselineCache = Path(os.getcwd()+'/cache/baselineCache.txt')
+    if baselineCache.exists:
+        with open(baselineCache, "r", encoding="utf-8") as baselineCacheFile:
+            index = 1
+            print("===== Available Baselines =====")
+            for line in baselineCacheFile:
+                print(str(index)+ " - " + line)
+                index+=1
+    else:
+        print("ERROR -- There are no pre-existing baselines to verify\nReturning to Main Menu.")
+        main()
+
 def main():
     
     print("Welcome to HashHunter an open source signature based FIM and AV tool!")
@@ -59,6 +72,8 @@ def main():
     
     if userInput == 1:
         createBaseline()
+    elif userInput == 2:
+        verifyBaseline()
     else:
         print("Sorry that's an invalid input please try again")
         main()
