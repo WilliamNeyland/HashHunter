@@ -12,9 +12,7 @@ class baseline():
     def __init__(self, dir):
 
         self.baselineDir = dir
-        self.cacheFileName = ''
-        self.cacheFileDir = ''
-        # Type check the dir attribute
+
         assert type(self.baselineDir) == pathlib.PosixPath, "Type error with self.baselineDir"
 
         self.makeBaselineFile()

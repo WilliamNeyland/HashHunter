@@ -35,7 +35,6 @@ class fileStruct():
 
 
 #st_mode == File mode: file type and file mode bits (permissions).
-#st_ino ==
 #st_dev == Identifier of the device on which this file resides.
 #st_nlinks == Number of hard links.
 #st_uid == User identifier of the file owner.

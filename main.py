@@ -14,8 +14,7 @@ def createBaseline():
         print("Invalid path please try again.")
         createBaseline()
 
-    # Type casting to str() might be uncessary - NEEDS TESTING
-    baselineCache = Path(str(os.getcwd())+'/cache/baselineCache.txt')
+    baselineCache = Path(os.getcwd()+'/cache/baselineCache.txt')
     if baselineCache.exists():
         with open(baselineCache, 'r') as existingBaselines:
             for lines in existingBaselines:
@@ -41,23 +40,19 @@ def createBaseline():
                         baseline(path)
                         break
     else:
-        # CLEAN THIS UP
-        temp = os.getcwd()
-        os.chdir(str(os.getcwd()+'/cache'))
-        with open("baselineCache.txt", "w", encoding="utf-8") as baselineCacheFile:
+        # Creates necessary program directories on first run
+        os.mkdir('./cache')
+        os.mkdir('./cache/baselines')
+        with open("./cache/baselineCache.txt", "w", encoding="utf-8") as baselineCacheFile:
             baselineCacheFile.write(str(path)+'\n')
-        os.chdir(str(temp))
-        baseline(path)
-                
-
-    
+        baseline(path)   
 
 def main():
     
     print("Welcome to HashHunter an open source signature based FIM and AV tool!")
     print("===== MAIN MENU =====")
     print("Please select one of the following options to continue:")
-    print("1.   Create Baseline")
+    print("1.   Create Directory Baseline")
     print("2.   Verify Directory Status")
     print("3.   Verify File Safety")
     userInput = int(input("> "))
