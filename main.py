@@ -73,7 +73,7 @@ def selectBaseline():
             else:
                 baselineCacheFile.seek(streamPosition[userInput])
 
-            baselinePath = Path(baselineCacheFile.readline())
+            baselinePath = Path(baselineCacheFile.readline().strip())
             verifyBaseline(baselinePath)
             
             
