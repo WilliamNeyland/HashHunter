@@ -1,5 +1,6 @@
 from pathlib import Path
 from baseline import *
+from verifyBaseline import *
 import os
 
 def createBaseline():
@@ -47,15 +48,36 @@ def createBaseline():
             baselineCacheFile.write(str(path)+'\n')
         baseline(path)   
 
-def verifyBaseline():
+def selectBaseline():
     baselineCache = Path(os.getcwd()+'/cache/baselineCache.txt')
     if baselineCache.exists:
         with open(baselineCache, "r", encoding="utf-8") as baselineCacheFile:
             index = 1
+            streamPosition = {}
             print("===== Available Baselines =====")
-            for line in baselineCacheFile:
+            while True:
+                streamPosition.update({str(index) : baselineCacheFile.tell()})
+                line = baselineCacheFile.readline().strip() # strips \n
+                
+                if not line: # Executes if readline returns EOF
+                    del streamPosition[str(index)] # Removes last tell position as it points to EOF
+                    break
+
                 print(str(index)+ " - " + line)
                 index+=1
+
+            userInput = input("> ")
+            if userInput not in streamPosition:
+                print("ERROR: Invalid selection")
+                selectBaseline()
+            else:
+                baselineCacheFile.seek(streamPosition[userInput])
+
+            baselinePath = Path(baselineCacheFile.readline())
+            verifyBaseline(baselinePath)
+            
+            
+
     else:
         print("ERROR -- There are no pre-existing baselines to verify\nReturning to Main Menu.")
         main()
@@ -73,7 +95,7 @@ def main():
     if userInput == 1:
         createBaseline()
     elif userInput == 2:
-        verifyBaseline()
+        selectBaseline()
     else:
         print("Sorry that's an invalid input please try again")
         main()
