@@ -18,28 +18,27 @@ def createBaseline():
     baselineCache = Path(os.getcwd()+'/cache/baselineCache.txt')
     if baselineCache.exists():
         with open(baselineCache, 'r') as existingBaselines:
+            tempPathsRead = []
             for lines in existingBaselines:
-                if lines.strip() == str(path):
-                    print("WARNING: A Baseline for the directory provided already exists.\n"
-                    "Choose:\n"
-                    "1 -- Return to Main Menu\n"
-                    "2 -- Overwrite Existing Baseline (THERE IS NO GOING BACK)")
-                    tempInput = int(input("> "))
-                    if tempInput == 1:
-                        main()
-                    elif tempInput == 2:
-                        baseline(path)
-                    else:
-                        print("Invalid selection please try again.")
-                        createBaseline()
-                    # 'break' needed for bug fix -- If baselines existed after the specified path the loop would continue for the remaining lines
-                    # this would cause the input path to be appended to baselineCache causing duplication
-                    break
+                tempPathsRead.append(lines.strip())
+
+            if str(path) in tempPathsRead:
+                print("WARNING: A Baseline for the directory provided already exists.\n"
+                "Choose:\n"
+                "1 -- Return to Main Menu\n"
+                "2 -- Overwrite Existing Baseline (THERE IS NO GOING BACK)")
+                tempInput = int(input("> "))
+                if tempInput == 1:
+                    main()
+                elif tempInput == 2:
+                    baseline(path)
                 else:
-                    with open(baselineCache, 'a') as existingBaselines:
-                        existingBaselines.write(str(path)+'\n')
-                        baseline(path)
-                        break
+                    print("Invalid selection please try again.")
+                    createBaseline()
+            else:
+                with open(baselineCache, 'a') as existingBaselines:
+                    existingBaselines.write(str(path)+'\n')
+                    baseline(path)
     else:
         # Creates necessary program directories on first run
         os.mkdir('./cache')
