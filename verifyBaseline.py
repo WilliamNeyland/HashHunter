@@ -12,6 +12,7 @@ class verifyBaseline():
         self.makeHash()
         self.loadCacheBaseline()
         self.getCurrentBaseline()
+        self.compareBaselines()
 
 
     # CLEAN UP
@@ -63,6 +64,9 @@ class verifyBaseline():
         else:
             print("Baseline Root Directory no longer exists.\nExiting now.")
             exit()
+
+    def compareBaselines(self):
+        pass
 
 #[root,[dirs],{fileName:{attributeKey:value}}]
 # Verify Root Dirs
