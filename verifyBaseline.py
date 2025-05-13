@@ -60,13 +60,23 @@ class verifyBaseline():
                 currentRootContent.append(currentFilesDict)
                 self.currentBaselineList.append(currentRootContent)
 
-            print(str(self.currentBaselineList))
         else:
             print("Baseline Root Directory no longer exists.\nExiting now.")
             exit()
 
     def compareBaselines(self):
-        pass
+
+        #self.currentBaselineList[0][0] = str :: root
+        #self.currentBaselineList[0][1] = list :: dirs
+        #self.currentBaselineList[0][2] = dict :: files
+        #self.currentBaselineList[0][1]{filename} = dict :: file attributes
+        
+        for x in range(len(self.currentBaselineList)):
+            #print(self.currentBaselineList[x][0])
+            if self.currentBaselineList[x][0] in self.cacheBaselineRoots:
+                print(True)
+            else:
+                print(False)
 
 #[root,[dirs],{fileName:{attributeKey:value}}]
 # Verify Root Dirs
