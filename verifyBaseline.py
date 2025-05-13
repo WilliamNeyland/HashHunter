@@ -1,7 +1,8 @@
-import pathlib
+from pathlib import Path
 import os
 import hashlib
 import json
+from fileStruct import *
 
 class verifyBaseline():
     
@@ -10,6 +11,7 @@ class verifyBaseline():
 
         self.makeHash()
         self.loadCacheBaseline()
+        self.getCurrentBaseline()
 
 
     # CLEAN UP
@@ -27,17 +29,40 @@ class verifyBaseline():
             self.cacheBaselineFileDicts = []
 
             for x in range(len(self.jsonBaseline)):
-                self.cacheBaselineRoots.append(self.jsonBaseline[x][0])
-                self.cacheBaselineDirs.append(self.jsonBaseline[x][1])
+                self.cacheBaselineRoots.append(self.jsonBaseline[x][0]) # Roots
+                self.cacheBaselineDirs.append(self.jsonBaseline[x][1]) # Dirs within the Root
                 self.cacheBaselineFileDicts.append(self.jsonBaseline[x][2])
 
             #for x in range(len(self.cacheBaselineFileDicts)):
 
-
-            
-
     def getCurrentBaseline(self):
-        pass
+        # Check if baseline root dir still exists
+        if self.baselinePath.exists():
+            self.currentBaselineList = []
+
+            # pathlib.walk() returns a three value tuple (root, dirs, files) where root = type pathlib.Posixpath | dirs = list of strings | files = list of strings
+            # Baseline Data Structure -- ["root", [dirs], {file:[attributes]}]
+            for root, dirs, files in self.baselinePath.walk():
+
+                currentFilesDict = {}
+                currentRootContent = []
+                
+                for file in files:
+                    fileStat = os.stat(root / file)
+                    filePath = str(root / file)
+                    fileObj = fileStruct(filePath, fileStat)
+
+                    currentFilesDict.update({file : fileObj.attributes})
+
+                currentRootContent.append(str(root))
+                currentRootContent.append(dirs)
+                currentRootContent.append(currentFilesDict)
+                self.currentBaselineList.append(currentRootContent)
+
+            print(str(self.currentBaselineList))
+        else:
+            print("Baseline Root Directory no longer exists.\nExiting now.")
+            exit()
 
 #[root,[dirs],{fileName:{attributeKey:value}}]
 # Verify Root Dirs
